@@ -1,1 +1,9 @@
+## File system
+.DS_Store
+
+## Editor
+.zed
+.vscode
+
+## Build
 /target
