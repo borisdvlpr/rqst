@@ -1,3 +1,3 @@
 # rqst
 
-Rust-based HTTP client for the command line.
+Rust-based HTTP client for the terminal.
