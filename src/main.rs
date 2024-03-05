@@ -1,3 +1,8 @@
+use std::process;
+
 fn main() {
-    println!("Hello, world!");
+    if let Err(err) = rqst::parse_args().and_then(rqst::run) {
+        eprintln!("rqst: {}", err);
+        process::exit(1);
+    }
 }
